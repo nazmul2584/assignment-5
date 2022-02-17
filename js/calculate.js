@@ -42,7 +42,7 @@ document.getElementById('calculat').addEventListener('click',function(){
         xpance.innerText = totalxpance;
       
 
-        // -----------------------------------------------collect income value
+     // -----------------------------------------------collect income value
 
 
     const incomefild = document.getElementById('incomi');
@@ -59,10 +59,37 @@ document.getElementById('calculat').addEventListener('click',function(){
         const totalbalacne = incominput -totalxpance;
         balancces.innerText = totalbalacne;
 
-   
+})
 
+document.getElementById('save').addEventListener('click',function(){
+
+
+    // input fild--------------------------------------------------
+    const incomefild = document.getElementById('incomi');
+    const incomitext =incomefild.value;
+    const incominput = parseFloat(incomitext);
+    console.log(incominput);
+    
+
+  
+    
+ // saving input ----------------------------------------------
+     const saveinputfild = document.getElementById('saveinput');
+     const saveinputtext =saveinput.value;
+    const saveinputpigure = parseFloat(saveinputtext);
+     console.log(saveinputpigure);
+
+     //calculat saving amount
+    const savingamoutfild = document.getElementById('savingamout');
+
+        const savingamoutetext = savingamoutfild.innerText; 
+        const savingamoutfigure = parseFloat(savingamoutetext);
+        const totasaving = incominput * saveinputpigure / 100;
+        savingamoutfild.innerText = totasaving;
 
 })
+
+
 
 
 
