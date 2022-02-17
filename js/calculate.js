@@ -2,41 +2,54 @@
 
 document.getElementById('calculat').addEventListener('click',function(){
 
-    // console.log('dddddddddddd');
+    //--------------------------------------------------------food input
     const foodfild = document.getElementById('foodi');
     const foodtext =foodfild.value;
     const foodinput = parseFloat(foodtext);
     console.log(foodinput);
+    // clear width fild
+    foodi.value = '';
     
 
 
-    // rent input
+    //--------------------------------------------------------------- rent input
     const rentfild = document.getElementById('renti');
     const renttext =rentfild.value;
     const rentinput = parseFloat(renttext);
     console.log(rentinput);
-    // cloth input
+    // clear width fild
+    renti.value = '';
+
+
+
+
+
+    //--------------------------------------------------------------- cloth input
     const clothfild = document.getElementById('clothi');
     const clothitext =clothfild.value;
     const clothiinput = parseFloat(clothitext);
     console.log(clothiinput);
+    // clear width fild
+    clothi.value = '';
 
 
-    //calculet 3 value
+    //-----------------------------------------------------------------calculet 3 value
     const xpance = document.getElementById('spn');
 
         const xpancetext = xpance.innerText; 
         const xpancefigure = parseFloat(xpancetext);
         const totalxpance = foodinput + rentinput + clothiinput;
         xpance.innerText = totalxpance;
+      
 
-        // collect income value
+        // -----------------------------------------------collect income value
 
 
     const incomefild = document.getElementById('incomi');
     const incomitext =incomefild.value;
     const incominput = parseFloat(incomitext);
     console.log(incominput);
+    
 
    // total balance after expances
    const balancces = document.getElementById('balancee');
