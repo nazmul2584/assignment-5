@@ -7,9 +7,7 @@ document.getElementById('calculat').addEventListener('click',function(){
     const foodtext =foodfild.value;
     const foodinput = parseFloat(foodtext);
     console.log(foodinput);
-    // clear width fild
-    foodi.value = '';
-    
+   1
 
 
     //--------------------------------------------------------------- rent input
@@ -17,9 +15,7 @@ document.getElementById('calculat').addEventListener('click',function(){
     const renttext =rentfild.value;
     const rentinput = parseFloat(renttext);
     console.log(rentinput);
-    // clear width fild
-    renti.value = '';
-
+   1
 
 
 
@@ -29,8 +25,7 @@ document.getElementById('calculat').addEventListener('click',function(){
     const clothitext =clothfild.value;
     const clothiinput = parseFloat(clothitext);
     console.log(clothiinput);
-    // clear width fild
-    clothi.value = '';
+    1
 
 
     //-----------------------------------------------------------------calculet 3 value
@@ -92,9 +87,7 @@ document.getElementById('save').addEventListener('click',function(){
     const foodtext =foodfild.value;
     const foodinput = parseFloat(foodtext);
     console.log(foodinput);
-    // clear width fild
-    foodi.value = '';
-    
+  
 
 
     //--------------------------------------------------------------- rent input
@@ -102,8 +95,7 @@ document.getElementById('save').addEventListener('click',function(){
     const renttext =rentfild.value;
     const rentinput = parseFloat(renttext);
     console.log(rentinput);
-    // clear width fild
-    renti.value = '';
+  
 
 
 
@@ -114,8 +106,7 @@ document.getElementById('save').addEventListener('click',function(){
     const clothitext =clothfild.value;
     const clothiinput = parseFloat(clothitext);
     console.log(clothiinput);
-    // clear width fild
-    clothi.value = '';
+    
 
 
     //-----------------------------------------------------------------calculet 3 value
